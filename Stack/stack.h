@@ -5,6 +5,7 @@
 #define TYPE int
 
 typedef struct{
+    int top;
     TYPE arr[100];
 } Stack;
 
