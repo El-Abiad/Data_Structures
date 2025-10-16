@@ -6,18 +6,8 @@ int main()
 {
     Stack s;
     createStack(&s);
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    while(n > 0){
-        push(&s, n%2);
-        n /= 2;
-    }
-
-    while(!isEmpty(&s)){
-        printf("%d", pop(&s));
-    }
+    
+    printf("This is El-Abiad\n");
 
     return 0;
 }
